@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zad.1</title>
+    <style>
+        fieldset {
+            margin: 10px;
+            border-width: 3px;
+        }
+        #flex-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .column {
+            flex: 1;
+            margin: 10px;
+            background-color: lightblue;
+            padding-top: 10px;
+            height: 15em;
+            width: 10em;
+            text-align: center;
+        }
+
+        #flex-container2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+        }
+
+        .box {
+            background-color: lightblue;
+            text-align: center;
+            padding: 15px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+<fieldset>
+    <div id="flex-container">
+        <div class="column">Kolumna 1</div>
+        <div class="column">Kolumna 2</div>
+        <div class="column">Kolumna 3</div>
+    </div>
+</fieldset>
+<fieldset>
+    <div id="flex-container2">
+        <div class="box">Element 1</div>
+        <div class="box">Element 2</div>
+        <div class="box">Element 3</div>
+    </div>
+</fieldset>
+</body>
+</html>
