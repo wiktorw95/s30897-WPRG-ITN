@@ -2,104 +2,112 @@
 <html lang="en">
 <html>
 <head>
-  <meta charset="UTF-8">
-  <style>
-    body {
-      margin: 0;
-      background-color: #f5f5f5;
-    }
-    .container {
-      margin: 0;
-      background-color: white;
-      border: 1px solid #ddd;
-    }
-    .header {
-      display: flex;
-      justify-content: space-evenly;
-      padding: 10px;
-      border-bottom: 1px solid #ddd;
-      background-color: #f5f5f5;
-    }
-    .content {
-      display: flex;
-      justify-content: space-evenly;
-      padding: 40px;
-    }
-    .welcome {
-      width: 200px;
-      padding: 10px;
-    }
-    .functions {
-      display: flex;
-      flex-wrap: wrap;
-      width: 560px;
-    }
-    .info{
-      display: flex;
-      width: 600px;
-      height: 200px;
-    }
-    .box {
-      border: 1px solid #ddd;
-      margin: 5px;
-      padding: 10px;
-      text-align: center;
-      background-color: white;
-    }
-    .box-small {
-      width: 160px;
-    }
-    .box-large {
-      width: 352px;
-    }
-    .footer {
-      text-align: center;
-      padding: 5px;
-      font-size: 12px;
-      border-top: 1px solid #ddd;
-      background-color: #f5f5f5;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            margin: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            margin: 0;
+            background-color: white;
+            border: 1px solid #ddd;
+        }
+        .header {
+            display: flex;
+            justify-content: space-evenly;
+            border-bottom: 1px solid #ddd;
+            background-color: #f5f5f5;
+        }
+        .main {
+            display: flex;
+            justify-content: center;
+        }
+        .content {
+            display: flex;
+            justify-content: center;
+            width: 500px;
+            height: 215px;
+            padding: 20px;
+        }
+        .welcome {
+            width: 200px;
+            padding: 10px;
+        }
+        .functions {
+            display: flex;
+            flex-wrap: wrap;
+            width: 500px;
+            height: 200px;
+            padding: 10px;
+            text-align: center;
+            background-color: white;
+        }
+        .box {
+            border: 1px solid #ddd;
+            margin: 5px;
+            padding: 10px;
+            background-color: white;
+        }
+        .info{
+            width: 200px;
+        }
+        .box-small {
+            width: 140px;
+        }
+        .box-large {
+            width: 312px;
+        }
+        .footer {
+            text-align: center;
+            padding: 5px;
+            font-size: 12px;
+            border-top: 1px solid #ddd;
+            background-color: #f5f5f5;
+        }
+    </style>
 </head>
 <body>
 <div class="container">
-  <div class="header">
-    <p>Strona główna</p>
-    <p>O nas</p>
-    <p>Kontakt</p>
-  </div>
+    <div class="header">
+        <p>Strona główna</p>
+        <p>O nas</p>
+        <p>Kontakt</p>
+    </div>
+    <div class="main">
+        <div class="content">
+            <div class="welcome">
+                <h3>Witaj na naszej skomplikowanej stronie!</h3>
+            </div>
 
-  <div class="content">
-    <div class="welcome">
-      <h3>Witaj na naszej skomplikowanej stronie!</h3>
+            <div class="functions">
+                <div class="box box-small">
+                    <b>Funkcja 1</b>
+                    <p>Opis funkcji 1</p>
+                </div>
+
+                <div class="box box-small">
+                    <b>Funkcja 2</b>
+                    <p>Opis funkcji 2</p>
+                </div>
+                <div class="box box-large">
+                    <b>Funkcja 3</b>
+                    <p>Opis funkcji 3</p>
+                </div>
+            </div>
+            <div class="functions">
+                <div class="box">
+                    <div class="info">
+                        <b>Dodatkowe informacje</b>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="functions">
-      <div class="box box-small">
-        <b>Funkcja 1</b>
-        <p>Opis funkcji 1</p>
-      </div>
-
-      <div class="box box-small">
-        <b>Funkcja 2</b>
-        <p>Opis funkcji 2</p>
-      </div>
-      <div class="box box-large">
-        <b>Funkcja 3</b>
-        <p>Opis funkcji 3</p>
-      </div>
+    <div class="footer">
+        © 2023 Skomplikowana strona z Kodowem. Wszelkie prawa zastrzeżone.
     </div>
-    <div class="info">
-      <div class="box">
-        <b>Dodatkowe informacje</b>
-      </div>
-    </div>
-
-  </div>
-
-  <div class="footer">
-    © 2023 Skomplikowana strona z Kodowem. Wszelkie prawa zastrzeżone.
-  </div>
 </div>
 </body>
 </html>
