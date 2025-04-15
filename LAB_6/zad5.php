@@ -11,12 +11,7 @@ function Pangram($str) {
         $letters[ord($char) - ord('a')] = true;
     }
 
-    if(!in_array(false, $letters)){
-        return true;
-    }
-    else{
-        return false;
-    }
+    return !in_array(false, $letters);
 }
 
 $str = "The quick brown fox jumps over the lazy dog";
