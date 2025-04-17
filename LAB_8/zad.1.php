@@ -8,10 +8,10 @@
 <form method="post" action="">
     <label for="text">Wprowadź tekst:</label><br>
     <input type="text" id="text" name="text"><br>
-    <input type="submit" name="sent" value="Wynik">
+    <input type="submit" name="submit" value="Wynik">
 </form>
 <?php
-if(isset($_POST['sent'])) {
+if(isset($_POST['submit'])) {
     $input = $_POST['text'];
 
     $upper = strtoupper($input);
